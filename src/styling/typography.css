@@ -4,33 +4,41 @@
 
 /* Aurabesh fonts */
 @font-face {
-    font-family: 'Aurabesh';
-    src: url("./aurebesh/Aurebesh.otf") format("otf");
+    font-family: 'Aurebesh';
+    src: url("./aurebesh/Aurebesh.otf");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Aurabesh';
-    src: url("./aurebesh/Aurebesh\ Italic.otf") format("otf");
+    font-family: 'Aurebesh';
+    src: url("./aurebesh/Aurebesh\ Italic.otf");
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
-    font-family: 'Aurabesh';
-    src: url("./aurebesh/Aurebesh\ Bold.otf") format("otf");
+    font-family: 'Aurebesh';
+    src: url("./aurebesh/Aurebesh\ Bold.otf");
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Aurabesh';
-    src: url("./aurebesh/Aurebesh\ Bold\ Italic.otf") format("otf");
+    font-family: 'Aurebesh';
+    src: url("./aurebesh/Aurebesh\ Bold\ Italic.otf");
     font-weight: bold;
     font-style: italic;
 }
 
 h1, h2, h3 {
     font-family: 'Arvo', serif;
+}
+
+h1:hover, h2:hover, h3:hover, p:hover {
+    font-family: 'Aurebesh', serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
 }
