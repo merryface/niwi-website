@@ -1,2 +1,5 @@
 @import "./styling/reset.css";
+@import "./styling/settings.css";
 @import "./styling/typography.css";
+
+@import "./styling/header.css";
