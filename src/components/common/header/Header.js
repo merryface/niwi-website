@@ -4,7 +4,7 @@ import Navbar from '../navbar';
 let Header = () => {
     return(
         <header>
-            <div className="header_Title"><a href="/">Night Witches</a></div>
+            <div className="header_Title"><p>Night Witches</p></div>
             <Navbar />
         </header>
     )
