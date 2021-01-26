@@ -8,7 +8,7 @@ let Hero = () => {
         <section className="hero">
 
             <div className="videoContainer">
-                <iframe title="niwi trailer" className="videoContainer__video" width="x" height="y" src="https://www.youtube.com/embed/ipxu81WiQsw?controls=0&amp;start=57&autoplay=1&mute=1&loop=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;"></iframe>
+                <iframe title="niwi trailer" className="videoContainer__video" width="x" height="y" src="https://www.youtube.com/embed/ipxu81WiQsw?controls=0&amp;start=57&autoplay=1&mute=1&showinfo=0&loop=1&autohide=1&modestbranding=1&playlist=ipxu81WiQsw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; loop; autohide;"></iframe>
             </div>
 
             <img src={ niwiLogo } className="hero_logo" alt="Night Witches Logo" />
