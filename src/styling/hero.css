@@ -22,8 +22,10 @@
 .hero_intro {
     text-align: center;
     line-height: 1.2;
+
+    color: var(--mediumPurple);
     
-    width: 40%;
+    width: 45%;
     padding: var(--smallPadding);
     position: relative;
 }
@@ -31,6 +33,8 @@
 .hero_niwiMotto {
     display: inline;
     position: relative;
+    color: var(--gold);
+    font-style: italic;
 }
 
 .hero_continue {
