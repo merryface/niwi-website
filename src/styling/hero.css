@@ -24,6 +24,7 @@
     line-height: 1.2;
 
     color: var(--mediumPurple);
+    font-weight: 700;
     
     width: 45%;
     padding: var(--smallPadding);
@@ -35,6 +36,7 @@
     position: relative;
     color: var(--gold);
     font-style: italic;
+    font-weight: normal;
 }
 
 .hero_continue {
