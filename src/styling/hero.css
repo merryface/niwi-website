@@ -10,3 +10,26 @@
     width: 25%;
     padding: var(--mediumPadding);
 }
+
+.hero_intro {
+    text-align: center;
+    line-height: 1.2;
+    
+    width: 40%;
+    padding: var(--smallPadding);
+}
+
+.hero_niwiMotto {
+    display: inline;
+}
+
+.hero_continue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero_learnMore {
+    padding-top: var(--mediumPadding);
+    padding-bottom: var(--smallPadding);
+}
