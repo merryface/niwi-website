@@ -1,0 +1,32 @@
+header {
+    background-color: var(--daerkPurple);
+    color: var(--gold);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: var(--smallPadding) var(--mediumPadding);
+}
+
+.nav_links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav_link {
+    padding: 0 var(--smallPadding);
+}
+
+.nav_link:hover {
+    cursor: pointer;
+    color: var(--cream);
+}
+
+.header_Title :hover {
+    cursor: pointer;
+    color: var(--cream);
+}

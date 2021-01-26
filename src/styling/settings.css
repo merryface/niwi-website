@@ -1,0 +1,14 @@
+:root {
+    /* Colours */
+    --mediumPurple: #8A3385;
+    --daerkPurple: #220044;
+    --lightPurple: #A160A4;
+    --gold: #EFAF2E;
+    --cream: #FAE7CF;
+
+    /* Padding */
+    --smallPadding: 1rem;
+    --mediumPadding: 2rem;
+    --largePadding: 3rem;
+    --hugePadding: 4rem;
+}
