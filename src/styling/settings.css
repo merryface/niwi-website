@@ -1,7 +1,7 @@
 :root {
     /* Colours */
     --mediumPurple: #8A3385;
-    --daerkPurple: #220044;
+    --darkPurple: #220044;
     --lightPurple: #A160A4;
     --gold: #EFAF2E;
     --cream: #FAE7CF;
@@ -11,4 +11,9 @@
     --mediumPadding: 2rem;
     --largePadding: 3rem;
     --hugePadding: 4rem;
+
+    /* Font size */
+    --normal: 1rem;
+    --big: 2rem;
+    --biggest: 2.5rem; 
 }

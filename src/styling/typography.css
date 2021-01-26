@@ -39,6 +39,19 @@ h1:hover, h2:hover, h3:hover, p:hover {
     font-family: 'Aurebesh', serif;
 }
 
+h1, p {
+    font-size: var(--normal);
+}
+
+h2 {
+    font-size: var(--biggest);
+}
+
+h3 P{
+    font-size: var(--big);
+}
+
+
 p {
     font-family: 'Raleway', sans-serif;
 }
