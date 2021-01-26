@@ -11,4 +11,9 @@
     --mediumPadding: 2rem;
     --largePadding: 3rem;
     --hugePadding: 4rem;
+
+    /* Font size */
+    --normal: 1rem;
+    --big: 2rem;
+    --biggest: 2.5rem; 
 }
