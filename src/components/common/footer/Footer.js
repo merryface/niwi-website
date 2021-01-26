@@ -3,7 +3,7 @@ import React from 'react';
 let Footer = () => {
     return(
         <footer>
-            <p>© Night Witches 2021</p>
+            <p className="footer_copyright">© Night Witches 2021</p>
         </footer>
     )
 }
