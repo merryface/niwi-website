@@ -1,8 +1,7 @@
 import React from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
 
 let Card = ({ image, alt, text, type }) => {
-    const page = useSelector(state => state.page);
     const dispatch = useDispatch();
 
     let navigate = () => {

@@ -13,6 +13,26 @@ let reducer = (state, action) => {
             ...state,
             page: "videos",
         };
+
+        case "PHOTOS": return {
+            ...state,
+            page: "photos",
+        };
+
+        case "JOIN_US": return {
+            ...state,
+            page: "joinUs",
+        };
+
+        case "PHOTOS": return {
+            ...state,
+            page: "photos",
+        };
+
+        case "home": return {
+            ...state,
+            page: "home",
+        };
         
         default: return state;
     }
