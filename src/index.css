@@ -5,3 +5,10 @@
 @import "./styling/header.css";
 @import "./styling/footer.css";
 @import "./styling/hero.css";
+
+
+body {
+    background-image: url("./assets/backgroundImage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
