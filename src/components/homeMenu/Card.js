@@ -13,7 +13,9 @@ let Card = ({ image, alt, text, type }) => {
     return (
         <div className="card">
             <img onClick={ navigate } src={ image } className="card_image" alt={ alt } />
-            <h3 onClick={ navigate }>{ text }</h3>
+            <div className="card_content">
+                <h3 onClick={ navigate } className="card_label">{ text }</h3>
+            </div>
         </div>
     )
 }
