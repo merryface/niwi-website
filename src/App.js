@@ -1,13 +1,11 @@
 import { Header, Footer } from './components/common';
-import Hero from './components/Hero';
-import HomeMenu from './components/homeMenu/HomeMenu';
+import Home from './components/pages/Home';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Hero />
-      <HomeMenu />
+      <Home />
       <Footer />
     </div>
   );
