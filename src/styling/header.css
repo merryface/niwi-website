@@ -19,14 +19,11 @@ header {
 
 .nav_link {
     padding: 0 var(--smallPadding);
+    text-decoration: none;
+    color: var(--gold);
 }
 
-.nav_link:hover {
-    cursor: pointer;
-    color: var(--cream);
-}
-
-.header_Title :hover {
+.nav_link:hover, .header_Title :hover {
     cursor: pointer;
     color: var(--cream);
 }
