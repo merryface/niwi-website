@@ -24,12 +24,7 @@ let reducer = (state, action) => {
             page: "joinUs",
         };
 
-        case "PHOTOS": return {
-            ...state,
-            page: "photos",
-        };
-
-        case "home": return {
+        case "HOME": return {
             ...state,
             page: "home",
         };
