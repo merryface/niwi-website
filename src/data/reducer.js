@@ -1,17 +1,35 @@
 // IMPORT REDUCERS
 
-
-
 let reducer = (state, action) => {
     switch (action.type) {
 
-        // // simple reducer example
-        // case "INC_TEAM_ONE": return incReducerT1(state);
+        // Navigation
+        case "SQUADRONS": return {
+            ...state,
+            page: "squadrons",
+        };
 
-        // // Load data from api and display example
-        // case "MATCHES_LOADED": return {...state, matches: action.payload, loaded: true};
+        case "VIDEOS": return {
+            ...state,
+            page: "videos",
+        };
+
+        case "PHOTOS": return {
+            ...state,
+            page: "photos",
+        };
+
+        case "JOIN_US": return {
+            ...state,
+            page: "joinUs",
+        };
+
+        case "HOME": return {
+            ...state,
+            page: "home",
+        };
         
-        // default: return state;
+        default: return state;
     }
 };
 

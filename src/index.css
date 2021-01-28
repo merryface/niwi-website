@@ -1,7 +1,21 @@
+/* Base */
 @import "./styling/reset.css";
 @import "./styling/settings.css";
 @import "./styling/typography.css";
 
+/* common */
 @import "./styling/header.css";
 @import "./styling/footer.css";
+
+/* home */
 @import "./styling/hero.css";
+@import "./styling/homeMenu.css";
+
+
+
+body {
+    background-image: url("./assets/backgroundImage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
