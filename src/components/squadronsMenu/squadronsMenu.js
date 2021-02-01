@@ -45,7 +45,7 @@ let SquadronsMenu = () => {
 
             {/* Wayward */}
             <SquadronIcon handleClick={ seeWaywardInfo } image={ waywardLogo } alt="Wayward logo" text="Wayward" />
-    </section>
+        </section>
     )
 }
 
