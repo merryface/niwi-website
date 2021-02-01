@@ -1,50 +1,46 @@
 import React from 'react';
-import SquadronIcon from './squadronIcon';
+import SquadronIcon from './SquadronIcon';
 import { useDispatch } from 'react-redux';
 
 
-let HomeMenu = () => {
+let SquadronsMenu = () => {
     const dispatch = useDispatch();
 
-    let seeHexInfo = () => {
-        dispatch({
-            // set later
-        })
-    };
+    // HEX
+    let seeHexInfo = () => dispatch({
+        type: "INFO_HEX"
+    });
 
-    let seeCroneInfo = () => {
-        dispatch({
-            // set later
-        })
-    };
+    // CRONE
+    let seeCroneInfo = () => dispatch({
+        type: "INFO_CRONE"
+    });
 
-    let seeBroomstickInfo = () => {
-        dispatch({
-            // set later
-        })
-    };
+    // BROOMSTICK
+    let seeBroomstickInfo = () => dispatch({
+        type: "INFO_BROOMSTICK"
+    });
 
-    let seeWaywardInfo = () => {
-        dispatch({
-            // set later
-        })
-    };
+    // WAYWARD
+    let seeWaywardInfo = () => dispatch({
+        type: "INFO_WAYWARD"
+    });
 
     return(
         <>
         {/* Hex */}
-        <SquadronIcon handleClick={ seeHexInfo } image="" alt="" text="" />
+        <SquadronIcon handleClick={ seeHexInfo } image="https://tse3.mm.bing.net/th?id=OIP.5C9Hk_e7FQgKGiiRE1ZvqwEsDU&pid=Api" alt="" text="" />
 
         {/* Crone */}
-        <SquadronIcon handleClick={ seeCroneInfo } image="" alt="" text="" />
+        <SquadronIcon handleClick={ seeCroneInfo } image="https://tse3.mm.bing.net/th?id=OIP.5C9Hk_e7FQgKGiiRE1ZvqwEsDU&pid=Api" alt="" text="" />
 
         {/* Broomstick */}
-        <SquadronIcon handleClick={ seeBroomstickInfo } image="" alt="" text="" />
+        <SquadronIcon handleClick={ seeBroomstickInfo } image="https://tse3.mm.bing.net/th?id=OIP.5C9Hk_e7FQgKGiiRE1ZvqwEsDU&pid=Api" alt="" text="" />
 
         {/* Wayward */}
-        <SquadronIcon handleClick={ seeWaywardInfo } image="" alt="" text="" />
+        <SquadronIcon handleClick={ seeWaywardInfo } image="https://tse3.mm.bing.net/th?id=OIP.5C9Hk_e7FQgKGiiRE1ZvqwEsDU&pid=Api" alt="" text="" />
     </>
     )
 }
 
-export default HomeMenu;
+export default SquadronsMenu;
