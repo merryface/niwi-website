@@ -1,33 +1,19 @@
 // IMPORT REDUCERS
 
+// SEE OUR SQUADS: Infographic reducers
+import hexInfoReducer from './reducerLogic/hexInfoReducer';
+import croneInfoReducer from './reducerLogic/croneInfoReducer';
+import broomstickInfoReducer from './reducerLogic/broomstickInfoReducer';
+import waywardInfoReducer from './reducerLogic/waywardInfoReducer';
+
 let reducer = (state, action) => {
     switch (action.type) {
 
-        // Navigation
-        case "SQUADRONS": return {
-            ...state,
-            page: "squadrons",
-        };
-
-        case "VIDEOS": return {
-            ...state,
-            page: "videos",
-        };
-
-        case "PHOTOS": return {
-            ...state,
-            page: "photos",
-        };
-
-        case "JOIN_US": return {
-            ...state,
-            page: "joinUs",
-        };
-
-        case "HOME": return {
-            ...state,
-            page: "home",
-        };
+        // INFO
+        case "INFO_HEX": return hexInfoReducer(state);
+        case "INFO_CRONE": return croneInfoReducer(state);
+        case "INFO_BROOMSTICK": return broomstickInfoReducer(state);
+        case "INFO_WAYWARD": return waywardInfoReducer(state);
         
         default: return state;
     }

@@ -11,6 +11,9 @@
 @import "./styling/hero.css";
 @import "./styling/homeMenu.css";
 
+/* Squadrons */
+@import "./styling/squadronsMenu.css";
+
 
 
 body {
