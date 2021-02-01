@@ -1,5 +1,5 @@
 import React from 'react';
-import SquadronIcon from './SquadronIcon';
+import SquadronIcon from './squadronIcon';
 import { useDispatch } from 'react-redux';
 
 // Logos
