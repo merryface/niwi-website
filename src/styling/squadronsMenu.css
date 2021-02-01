@@ -11,14 +11,15 @@
     cursor: pointer;
 } 
 
-.squadronMenu_squadron {
+.icon_item {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     margin: var(--smallPadding);
 }
 
-.squadronMenu_name {
+.icon_label {
     color: var(--gold);
     text-align: center;
 }

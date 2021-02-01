@@ -35,28 +35,16 @@ let SquadronsMenu = () => {
     return(
         <section className="squadronMenu">
             {/* Hex */}
-            <div className="squadronMenu_squadron">
-                <SquadronIcon handleClick={ seeHexInfo } image={ hexLogo } alt="hex logo" text="" />
-                <p className="squadronMenu_name">Hex</p>
-            </div>
+            <SquadronIcon handleClick={ seeHexInfo } image={ hexLogo } alt="hex logo" text="Hex Squadron" />
 
             {/* Crone */}
-            <div className="squadronMenu_squadron">
-                <SquadronIcon handleClick={ seeCroneInfo } image={ croneLogo } alt="" text="" />
-                <p className="squadronMenu_name">Crone</p>
-            </div>
+            <SquadronIcon handleClick={ seeCroneInfo } image={ croneLogo } alt="Crone logo" text="Crone" />
 
             {/* Broomstick */}
-            <div className="squadronMenu_squadron">
-                <SquadronIcon handleClick={ seeBroomstickInfo } image={ broomstickLogo } alt="" text="" />
-                <p className="squadronMenu_name">Broomstick</p>
-            </div>
+            <SquadronIcon handleClick={ seeBroomstickInfo } image={ broomstickLogo } alt="Broomstick logo" text="Broomstick" />
 
             {/* Wayward */}
-            <div className="squadronMenu_squadron">
-                <SquadronIcon handleClick={ seeWaywardInfo } image={ waywardLogo } alt="" text="" />
-                <p className="squadronMenu_name">Wayward</p>
-            </div>
+            <SquadronIcon handleClick={ seeWaywardInfo } image={ waywardLogo } alt="Wayward logo" text="Wayward" />
     </section>
     )
 }
