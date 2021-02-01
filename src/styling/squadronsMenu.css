@@ -1,0 +1,25 @@
+.squadronMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin: var(--largePadding) auto;
+    width: 40%;
+}
+
+.squadronMenu:hover {
+    cursor: pointer;
+} 
+
+.squadronMenu_squadron {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: var(--smallPadding);
+}
+
+.squadronMenu_name {
+    color: var(--gold);
+    text-align: center;
+}
+

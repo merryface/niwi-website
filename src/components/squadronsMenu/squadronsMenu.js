@@ -2,6 +2,12 @@ import React from 'react';
 import SquadronIcon from './SquadronIcon';
 import { useDispatch } from 'react-redux';
 
+// Logos
+import hexLogo from '../../assets/hexLogo.png';
+import croneLogo from '../../assets/croneLogo.png';
+import broomstickLogo from '../../assets/broomstickLogo.png';
+import waywardLogo from '../../assets/waywardLogo.png';
+
 
 let SquadronsMenu = () => {
     const dispatch = useDispatch();
@@ -27,19 +33,31 @@ let SquadronsMenu = () => {
     });
 
     return(
-        <>
-        {/* Hex */}
-        <SquadronIcon handleClick={ seeHexInfo } image="https://tse3.mm.bing.net/th?id=OIP.5C9Hk_e7FQgKGiiRE1ZvqwEsDU&pid=Api" alt="" text="" />
+        <section className="squadronMenu">
+            {/* Hex */}
+            <div className="squadronMenu_squadron">
+                <SquadronIcon handleClick={ seeHexInfo } image={ hexLogo } alt="hex logo" text="" />
+                <p className="squadronMenu_name">Hex</p>
+            </div>
 
-        {/* Crone */}
-        <SquadronIcon handleClick={ seeCroneInfo } image="https://tse3.mm.bing.net/th?id=OIP.5C9Hk_e7FQgKGiiRE1ZvqwEsDU&pid=Api" alt="" text="" />
+            {/* Crone */}
+            <div className="squadronMenu_squadron">
+                <SquadronIcon handleClick={ seeCroneInfo } image={ croneLogo } alt="" text="" />
+                <p className="squadronMenu_name">Crone</p>
+            </div>
 
-        {/* Broomstick */}
-        <SquadronIcon handleClick={ seeBroomstickInfo } image="https://tse3.mm.bing.net/th?id=OIP.5C9Hk_e7FQgKGiiRE1ZvqwEsDU&pid=Api" alt="" text="" />
+            {/* Broomstick */}
+            <div className="squadronMenu_squadron">
+                <SquadronIcon handleClick={ seeBroomstickInfo } image={ broomstickLogo } alt="" text="" />
+                <p className="squadronMenu_name">Broomstick</p>
+            </div>
 
-        {/* Wayward */}
-        <SquadronIcon handleClick={ seeWaywardInfo } image="https://tse3.mm.bing.net/th?id=OIP.5C9Hk_e7FQgKGiiRE1ZvqwEsDU&pid=Api" alt="" text="" />
-    </>
+            {/* Wayward */}
+            <div className="squadronMenu_squadron">
+                <SquadronIcon handleClick={ seeWaywardInfo } image={ waywardLogo } alt="" text="" />
+                <p className="squadronMenu_name">Wayward</p>
+            </div>
+    </section>
     )
 }
 
