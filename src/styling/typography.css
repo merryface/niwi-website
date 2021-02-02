@@ -35,11 +35,11 @@ h1, h2, h3 {
     font-family: 'Arvo', serif;
 }
 
-h1:hover, h2:hover, h3:hover, p:hover, a:hover {
+h1:hover, h2:hover, h3:hover, p:hover, a:hover, li:hover {
     font-family: 'Aurebesh', serif;
 }
 
-h1, p, a {
+h1, p, a, li {
     font-size: var(--normal);
 }
 
@@ -52,6 +52,6 @@ h3 {
 }
 
 
-p, a {
+p, a, li {
     font-family: 'Raleway', sans-serif;
 }

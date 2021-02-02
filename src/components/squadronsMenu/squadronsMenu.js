@@ -1,5 +1,5 @@
 import React from 'react';
-import SquadronIcon from './SquadronIcon';
+import SquadronIcon from './squadronIcon';
 import { useDispatch } from 'react-redux';
 
 // Logos
@@ -35,7 +35,7 @@ let SquadronsMenu = () => {
     return(
         <section className="squadronMenu">
             {/* Hex */}
-            <SquadronIcon handleClick={ seeHexInfo } image={ hexLogo } alt="hex logo" text="Hex Squadron" />
+            <SquadronIcon handleClick={ seeHexInfo } image={ hexLogo } alt="hex logo" text="Hex" />
 
             {/* Crone */}
             <SquadronIcon handleClick={ seeCroneInfo } image={ croneLogo } alt="Crone logo" text="Crone" />

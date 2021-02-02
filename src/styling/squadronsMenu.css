@@ -2,9 +2,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
-    margin: var(--largePadding) auto;
     width: 40%;
+
+    margin: var(--hugePadding) auto;
 }
 
 .squadronMenu:hover {
@@ -16,11 +16,13 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: var(--smallPadding);
+
+    padding: 0 var(--mediumPadding);
 }
 
 .icon_label {
     color: var(--gold);
     text-align: center;
+    margin: var(--smallPadding) 0;
 }
 

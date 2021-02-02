@@ -1,13 +1,12 @@
 import { Header, Footer } from './components/common';
-// import Home from './components/pages/Home';
-import SquadronsMenu from './components/squadronsMenu/SquadronsMenu';
+import SeeOurSquadrons from './components/pages/SeeOurSquadrons';
+
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <SquadronsMenu />
-
+      <SeeOurSquadrons />
       <Footer />
     </div>
   );

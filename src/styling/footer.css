@@ -1,10 +1,13 @@
 footer {
-    position: absolute;
-    bottom:0;
-    left:0;
-    right:0;
+    position: relative;
+    /* bottom:0;
+    left: 0;
+    right: 0; */
 
     background-color: var(--darkPurple);
+}
+
+.footer_copyright {
     color: var(--gold);
 
     text-align: center;

@@ -36,7 +36,7 @@ const initial = {
     },
 
     broomstickInfo: {
-        name: "Crone Squadron",
+        name: "Broomstick Squadron",
         description: "This is where Broomstick Squadron's blurb will go",
         playerRoster: [
             "Lokki || Broomstick Leader",
@@ -46,8 +46,8 @@ const initial = {
 
 
     waywardInfo: {
-        name: "Crone Squadron",
-        description: "This is where Broomstick Squadron's blurb will go",
+        name: "Wayward Squadron",
+        description: "This is where Wayward Squadron's blurb will go",
         playerRoster: [
             "\"Sparrow\" || Wayward 2",
             "Martian || Wayward 3",
