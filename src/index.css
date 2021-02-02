@@ -12,6 +12,7 @@
 @import "./styling/homeMenu.css";
 
 /* Squadrons */
+@import "./styling/squadInfo.css";
 @import "./styling/squadronsMenu.css";
 
 

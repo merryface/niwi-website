@@ -4,7 +4,7 @@ import SquadronsMenu from '../squadronsMenu/squadronsMenu';
 
 let SeeOurSquadrons = () => (
     <>
-        <h2>See Our Squadrons</h2>
+        <h2 className="squads_title">See Our Squadrons</h2>
         <SquadronsMenu />
         <SquadInfo />
 

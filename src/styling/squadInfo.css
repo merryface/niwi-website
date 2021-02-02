@@ -1,0 +1,33 @@
+.squads_title {
+    text-align: center;
+    color: var(--gold);
+    margin: var(--mediumPadding); 
+}
+
+.description {
+    background-color: var(--darkPurple);
+    width: 40%;
+    border-radius: 10px;
+
+    margin: var(--mediumPadding) auto;
+}
+
+.description_info,  .roster_title {
+    color: var(--cream);
+    text-align: center;
+    padding: var(--smallPadding);
+}
+
+.description_body {
+    color: var(--cream);
+    text-align: center;
+    padding: var(--smallPadding);
+}
+
+.roster_players {
+    color: var(--cream);
+    padding: var(--mediumPadding);
+    padding-top: var(--smallPadding);
+    line-height: 2;
+    margin-bottom: var(--hugePadding);
+}
