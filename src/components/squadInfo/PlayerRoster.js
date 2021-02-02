@@ -8,7 +8,7 @@ let PlayerRoster = ({ players }) => {
             <ul className="roster_players">
             { players.map(player => {
                 return (
-                    <li>{player}</li>
+                    <li key={ player }>{player}</li>
                 )
             }) }
             </ul>
