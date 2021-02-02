@@ -7,7 +7,6 @@ let SeeOurSquadrons = () => (
         <h2 className="squads_title">See Our Squadrons</h2>
         <SquadronsMenu />
         <SquadInfo />
-
     </>
 )
 
