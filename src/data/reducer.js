@@ -6,6 +6,10 @@ import croneInfoReducer from './reducerLogic/croneInfoReducer';
 import broomstickInfoReducer from './reducerLogic/broomstickInfoReducer';
 import waywardInfoReducer from './reducerLogic/waywardInfoReducer';
 
+// VIDEOS PAGE
+import seeYTVideosReducer from './reducerLogic/videoDisplay/seeYTVideosReducer';
+import seeStreamersReducer from './reducerLogic/videoDisplay/seeStreamersReducer';
+
 let reducer = (state, action) => {
     switch (action.type) {
 
@@ -14,6 +18,10 @@ let reducer = (state, action) => {
         case "INFO_CRONE": return croneInfoReducer(state);
         case "INFO_BROOMSTICK": return broomstickInfoReducer(state);
         case "INFO_WAYWARD": return waywardInfoReducer(state);
+
+        // Video Page
+        case "YT_VIDEOS": return seeYTVideosReducer(state);
+        case "TWITCH_STREAMERS": return seeStreamersReducer(state);
         
         default: return state;
     }

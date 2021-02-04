@@ -1,12 +1,13 @@
 import { Header, Footer } from './components/common';
-import SeeOurSquadrons from './components/pages/SeeOurSquadrons';
+import Categories from './components/videoPage/Categories';
+
 
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <SeeOurSquadrons />
+      <Categories />
       <Footer />
     </div>
   );
