@@ -2,7 +2,7 @@ import React from 'react';
 
 let Category = ({ label, handleClick }) => (
     <>
-        <button onClick={ handleClick }>{ label }</button>
+        <button className="categories_button" onClick={ handleClick }>{ label }</button>
     </>
 )
 

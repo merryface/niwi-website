@@ -1,0 +1,32 @@
+.categories_container {
+    background-color: var(--darkPurple);
+    margin: var(--largePadding) auto;
+    padding: var(--mediumPadding);
+    width: 40%;
+    border-radius: 20px;
+}
+
+.categories_title {
+    color: var(--gold);
+    padding: 0 0 var(--smallPadding);
+}
+
+.categories_buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.categories_button {
+    border: none;
+    border-radius: 10px;
+
+    background-color: var(--lightPurple);
+    color: var(--cream);
+
+    padding: 0.5rem var(--smallPadding);
+    width: 12rem;
+}
+
+.categories_button:hover {
+    cursor: pointer;
+}

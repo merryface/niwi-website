@@ -1,3 +1,6 @@
+
+
+
 /* Base */
 @import "./styling/reset.css";
 @import "./styling/settings.css";
@@ -15,6 +18,8 @@
 @import "./styling/squadInfo.css";
 @import "./styling/squadronsMenu.css";
 
+/* Videos */
+@import "./styling/categories.css";
 
 
 body {
