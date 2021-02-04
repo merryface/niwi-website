@@ -2,6 +2,8 @@
 const initial = {
     page: "home",
     squadInfoDisplayed: 1,
+    videoDisplayed: 1,
+    youtube: true,
 
     hexInfo: {
         name: "Hex Squadron",
