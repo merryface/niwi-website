@@ -1,5 +1,6 @@
 import { Header, Footer } from './components/common';
 import Categories from './components/videoPage/Categories';
+import VideoPlayer from './components/videoPage/VideoPlayer';
 
 
 
@@ -9,6 +10,7 @@ function App() {
 
       <Header />
       <Categories />
+      <VideoPlayer />
       <Footer />
     </div>
   );

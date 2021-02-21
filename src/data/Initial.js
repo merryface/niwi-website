@@ -2,8 +2,15 @@
 const initial = {
     page: "home",
     squadInfoDisplayed: 1,
-    videoDisplayed: 1,
+
+    currentVideo: 1,
     youtube: true,
+
+    youtubeVideos: [
+        "https://www.youtube.com/embed/jFfqnLAef7A",
+        "https://www.youtube.com/embed/KZ1zVEeot7o&t",
+        "https://www.youtube.com/embed/HTzl_AOcMLU&ab",
+    ],
 
     hexInfo: {
         name: "Hex Squadron",
@@ -55,6 +62,8 @@ const initial = {
             "Martian || Wayward 3",
         ]
     },
+
+
 };
 
 export default initial;
