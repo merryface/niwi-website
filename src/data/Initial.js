@@ -7,9 +7,18 @@ const initial = {
     youtube: true,
 
     youtubeVideos: [
-        "https://www.youtube.com/embed/jFfqnLAef7A",
-        "https://www.youtube.com/embed/KZ1zVEeot7o&t",
-        "https://www.youtube.com/embed/HTzl_AOcMLU&ab",
+        "jFfqnLAef7A",
+        "0jowwYm2xiI",
+        "GLq4RUuTxvs",
+    ],
+
+    currentStreamer: 0,
+    twitchStreamers: [
+        "barisaxbro",
+        "marineballer",
+        "selrathegreat",
+        "wolfsfang7531",
+        "merryfacegaming",
     ],
 
     hexInfo: {
