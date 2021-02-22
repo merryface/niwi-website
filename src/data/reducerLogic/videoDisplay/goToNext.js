@@ -1,4 +1,4 @@
-const goToNext = (state) => { // logic to show menu page
+const goToNext = (state) => { // logic to show next video
     return {
         ...state,
         currentVideo: state.currentVideo == state.youtubeVideos.length -1 ?
