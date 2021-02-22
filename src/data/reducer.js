@@ -9,6 +9,7 @@ import waywardInfoReducer from './reducerLogic/waywardInfoReducer';
 // VIDEOS PAGE
 import seeYTVideosReducer from './reducerLogic/videoDisplay/seeYTVideosReducer';
 import seeStreamersReducer from './reducerLogic/videoDisplay/seeStreamersReducer';
+import goToNext from './reducerLogic/videoDisplay/goToNext';
 
 let reducer = (state, action) => {
     switch (action.type) {
@@ -22,6 +23,7 @@ let reducer = (state, action) => {
         // Video Page
         case "YT_VIDEOS": return seeYTVideosReducer(state);
         case "TWITCH_STREAMERS": return seeStreamersReducer(state);
+        case "VIDEO_NEXT": return goToNext(state);
         
         default: return state;
     }
