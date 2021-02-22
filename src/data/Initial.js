@@ -3,7 +3,7 @@ const initial = {
     page: "home",
     squadInfoDisplayed: 1,
 
-    currentVideo: 1,
+    currentVideo: 0,
     youtube: true,
 
     youtubeVideos: [
