@@ -9,8 +9,3 @@ const goToNext = (state) => { // logic to show next video
 }
 
 export default goToNext;
-
-// state.currentVideo == (state.youtubeVideos.length-1) ?
-// 0
-// :
-// state.currentVideo += 1

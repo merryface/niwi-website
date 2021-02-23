@@ -3,27 +3,38 @@ import VideoPlayer from '../videoPage/VideoPlayer';
 import Categories from '../videoPage/Categories';
 import Button from '../videoPage/Button';
 
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 
 let Videos = () => {
     const dispatch = useDispatch();
+    const youtube = useSelector(state => state.youtube);
 
-    // Next
-    let goToNext = () => dispatch({
+    // Next YT
+    const goToNext = () => dispatch({
         type: "VIDEO_NEXT"
     });
 
-    // Previous
-    let goToPrev = () => dispatch({
+    // Previous YT
+    const goToPrev = () => dispatch({
         type: "VIDEO_PREV"
+    });
+
+    // Next Streamer
+    const nextStreamer = () => dispatch({
+        type: "TWITCH_NEXT"
+    });
+
+    // Previous Streamer
+    const prevStreamer = () => dispatch({
+        type: "TWITCH_PREV"
     });
 
     return (
         <>
             <Categories />
             <VideoPlayer />
-            <Button label="Next" handleClick={ goToNext } />
-            <Button label="Previous" handleClick={ goToPrev } />
+            <Button label="Next" handleClick={ youtube ? goToNext : nextStreamer } />
+            <Button label="Previous" handleClick={ youtube ? goToPrev : prevStreamer } />
         </>
     )
 }

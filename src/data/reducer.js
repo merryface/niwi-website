@@ -9,8 +9,14 @@ import waywardInfoReducer from './reducerLogic/waywardInfoReducer';
 // VIDEOS PAGE
 import seeYTVideosReducer from './reducerLogic/videoDisplay/seeYTVideosReducer';
 import seeStreamersReducer from './reducerLogic/videoDisplay/seeStreamersReducer';
+
+// YOUTUBE VIDEOS
 import goToNext from './reducerLogic/videoDisplay/goToNext';
 import goToPrev from './reducerLogic/videoDisplay/goToPrev';
+
+// STREAMERS
+import nextStreamer from './reducerLogic/videoDisplay/nextStreamer';
+import prevStreamer from './reducerLogic/videoDisplay/prevStreamer';
 
 let reducer = (state, action) => {
     switch (action.type) {
@@ -24,8 +30,14 @@ let reducer = (state, action) => {
         // Video Page
         case "YT_VIDEOS": return seeYTVideosReducer(state);
         case "TWITCH_STREAMERS": return seeStreamersReducer(state);
+
+        // Youtube
         case "VIDEO_NEXT": return goToNext(state);
         case "VIDEO_PREV": return goToPrev(state);
+
+        // Twitch
+        case "TWITCH_NEXT": return nextStreamer(state);
+        case "TWITCH_PREV": return prevStreamer(state);
         
         default: return state;
     }
