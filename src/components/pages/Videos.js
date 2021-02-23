@@ -31,6 +31,7 @@ let Videos = () => {
 
     return (
         <>
+            <h2 className="media_titles">Night Witches Videos</h2>
             <Categories />
             <div className="media_container">
                 <VideoPlayer />

@@ -21,6 +21,7 @@ let Photos = () => {
 
     return (
         <>
+            <h2 className="media_titles">Night Witches Photos</h2>
             <div className="media_container">
                 <ImageDisplay image={ photos[currentPhoto][0] } alt={ photos[currentPhoto][1] } />
                 <div className="media_buttons">

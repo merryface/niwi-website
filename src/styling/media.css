@@ -33,7 +33,14 @@
 
 .media_imageDisplay {
     width: 100%;
+    height: 100%;
     margin: var(--smallPadding) 0;
     border-radius: 5px;
-    object-fit: fill;
+    object-fit: contain;
+}
+
+.media_titles {
+    color: var(--gold);
+    margin: var(--mediumPadding);
+    text-align: center;
 }
