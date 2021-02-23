@@ -32,9 +32,13 @@ let Videos = () => {
     return (
         <>
             <Categories />
-            <VideoPlayer />
-            <Button label="Next" handleClick={ youtube ? goToNext : nextStreamer } />
-            <Button label="Previous" handleClick={ youtube ? goToPrev : prevStreamer } />
+            <div className="media_container">
+                <VideoPlayer />
+                <div className="media_buttons">
+                    <Button label="Next" handleClick={ youtube ? goToNext : nextStreamer } />
+                    <Button label="Previous" handleClick={ youtube ? goToPrev : prevStreamer } />
+                </div>
+            </div>
         </>
     )
 }

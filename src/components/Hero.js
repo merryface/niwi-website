@@ -12,7 +12,7 @@ let Hero = () => {
             </div>
 
             <img src={ niwiLogo } className="hero_logo" alt="Night Witches Logo" />
-            <h2 className="hero_subtitle">Who are the Night Withes?</h2>
+            <h2 className="hero_subtitle">Who are the Night Witches?</h2>
             <p className="hero_intro">We're a mercenary fighter wing, made up of the best pilots in the galaxy. We hold allegiance to no faction - loyal only to ourselves and whoever happens to hire us. Our motto is <div className="hero_niwiMotto">"Live to Fight and Fly!"</div></p>
 
             <div className="hero_continue">
