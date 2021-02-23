@@ -18,6 +18,10 @@ import goToPrev from './reducerLogic/videoDisplay/goToPrev';
 import nextStreamer from './reducerLogic/videoDisplay/nextStreamer';
 import prevStreamer from './reducerLogic/videoDisplay/prevStreamer';
 
+// PHOTOS
+import prevImage from './reducerLogic/photoDisplay/prevImage';
+import nextImage from './reducerLogic/photoDisplay/nextImage';
+
 let reducer = (state, action) => {
     switch (action.type) {
 
@@ -38,6 +42,10 @@ let reducer = (state, action) => {
         // Twitch
         case "TWITCH_NEXT": return nextStreamer(state);
         case "TWITCH_PREV": return prevStreamer(state);
+
+        // Images
+        case "IMG_NEXT": return nextImage(state);
+        case "IMG_PREV": return prevImage(state);
         
         default: return state;
     }

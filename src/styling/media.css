@@ -30,3 +30,10 @@
     margin: var(--smallPadding) 0;
     border-radius: 5px;
 }
+
+.media_imageDisplay {
+    width: 100%;
+    margin: var(--smallPadding) 0;
+    border-radius: 5px;
+    object-fit: fill;
+}

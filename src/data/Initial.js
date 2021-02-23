@@ -21,6 +21,13 @@ const initial = {
         "merryfacegaming",
     ],
 
+    currentPhoto: 0,
+    photos: [
+        ["https://hdwallpapers.move.pk/wp-content/uploads/2015/05/star-wars-attack.jpg","A Fett being Fett"],
+        ["https://www.themeparkprofessor.com/wp-content/uploads/2020/05/X-Wing-Fighter_47c7c342.jpeg","X-wing"],
+        ["http://3.bp.blogspot.com/-FNemdmtpQr4/UVOwFhBSfCI/AAAAAAAAW_c/blExlqdYAik/s1600/Tie_interceptor.jpg","Tie Interceptor"],
+    ],
+
     hexInfo: {
         name: "Hex Squadron",
         description: "This is where Hex Squadron's blurb will go",
