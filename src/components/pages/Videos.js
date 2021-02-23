@@ -1,7 +1,7 @@
 import React from 'react';
 import VideoPlayer from '../videoPage/VideoPlayer';
 import Categories from '../videoPage/Categories';
-import Button from '../videoPage/Button';
+import Button from '../common/Button';
 
 import { useDispatch, useSelector } from 'react-redux';
 
@@ -31,6 +31,7 @@ let Videos = () => {
 
     return (
         <>
+            <h2 className="media_titles">Night Witches Videos</h2>
             <Categories />
             <div className="media_container">
                 <VideoPlayer />

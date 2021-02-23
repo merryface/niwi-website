@@ -4,7 +4,6 @@
     flex-direction: column;
     justify-content: center;
     margin: auto;
-
 }
 
 .media_buttons {
@@ -29,4 +28,18 @@
     height: 17rem;
     margin: var(--smallPadding) 0;
     border-radius: 5px;
+}
+
+.media_imageDisplay {
+    width: 100%;
+    height: 100%;
+    margin: var(--smallPadding) 0;
+    border-radius: 5px;
+    object-fit: contain;
+}
+
+.media_titles {
+    color: var(--gold);
+    margin: var(--mediumPadding) 0 var(--smallPadding) 0;
+    text-align: center;
 }

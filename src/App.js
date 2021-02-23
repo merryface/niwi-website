@@ -1,14 +1,13 @@
 import { Header, Footer } from './components/common';
-import Videos from './components/pages/Videos';
+import Photos from './components/pages/Photos';
 
 
 
 function App() {
   return (
     <div className="App">
-
       <Header />
-      <Videos />
+      <Photos />
       <Footer />
     </div>
   );
