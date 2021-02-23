@@ -1,0 +1,32 @@
+.media_container {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.media_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: var(--smallPadding);
+}
+
+.media_button {
+    background-color: var(--darkPurple);
+    border: none;
+    color: var(--gold);
+    padding: var(--smallPadding) var(--mediumPadding);
+    min-width: 8rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.media_display {
+    width: 100%;
+    height: 17rem;
+    margin: var(--smallPadding) 0;
+    border-radius: 5px;
+}

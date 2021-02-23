@@ -1,5 +1,5 @@
 import { Header, Footer } from './components/common';
-import Categories from './components/videoPage/Categories';
+import Videos from './components/pages/Videos';
 
 
 
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
 
       <Header />
-      <Categories />
+      <Videos />
       <Footer />
     </div>
   );
