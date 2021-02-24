@@ -30,7 +30,7 @@ const initial = {
 
     hexInfo: {
         name: "Hex Squadron",
-        description: "This is where Hex Squadron's blurb will go",
+        description: "After receiving antiquated light cruisers as payment for fighting off a band of partisans off a small fleet of battle bruised Imperial ships, Hex Squadron formed the Night Witches. With the newfound firepower, Hex built the Night Witches headquarters inside a small asteroid on the outer rim, and became renown for their skills as guns for hire. NiWi grew both in size and fame quickly, but it all started with this very squadron.",
         playerRoster: [
             " \"Scatch\" || Hex Leader",
             "\"Professor\" Autumn || Hex 2",
@@ -50,7 +50,7 @@ const initial = {
 
     croneInfo: {
         name: "Crone Squadron",
-        description: "This is where Crone Squadron's blurb will go",
+        description: "The galaxy is a large place, and as the Night Witches’ services became more and more demanded, it was time to expand. Manning the outpost on the other side of the outer rim, Crone Squadron became the Night Witches’ second most famous squadron, taking on missions where Hex could not due to distance or other pressing matters. Hidden in an asteroid field, Crone repurposed a section of a defeated and abandoned Imperial Star Destroyer and made it their home.",
         playerRoster: [
             "Merryface || Crone Leader",
             "Marineballer || Crone 2",
