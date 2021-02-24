@@ -4,17 +4,19 @@ import squadronsImage from '../../assets/squadronsImage.jpg'
 import videoImage from '../../assets/videosImage.jpg'
 import photosImage from '../../assets/photosImage.jpg'
 
+import { Link } from "react-router-dom";
+
 
 let HomeMenu = () => (
     <>
         {/* Squadrons */}
-        <Card image={ squadronsImage } alt="Star Wars squadrons screenshot of new republic pilots" text="See our Squadrons" type="SQUADRONS" />
+        <Link to="/squadrons"><Card image={ squadronsImage } alt="Star Wars squadrons screenshot of new republic pilots" text="See our Squadrons" type="SQUADRONS" /></Link>
 
         {/* Videos */}
-        <Card image={ videoImage } alt="Star wars squadrons screenshot of an exploding tie bomber" text="Watch Our Videos" type="VIDEOS" />
+        <Link to="/videos"><Card image={ videoImage } alt="Star wars squadrons screenshot of an exploding tie bomber" text="Watch Our Videos" type="VIDEOS" /></Link>
 
         {/* Photos */}
-        <Card image={ photosImage } alt="star wars squadrons screenshot of tie-defender firing ion lasers" text="See our Photos" type="PHOTOS" />
+        <Link to="/photos"><Card image={ photosImage } alt="star wars squadrons screenshot of tie-defender firing ion lasers" text="See our Photos" type="PHOTOS" /></Link>
     </>
     
 )
