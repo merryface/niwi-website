@@ -32,4 +32,5 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     position:absolute;
+    width: 100%
 }
