@@ -1,0 +1,40 @@
+.join_container {
+    color: var(--cream);
+    text-align: center;
+    line-height: 1.5;
+
+    width: 50%;
+    border-radius: 10px;
+
+    margin: var(--mediumPadding) auto;
+}
+
+.join_title {
+    color: var(--gold)
+}
+
+.join_section {
+    text-align: center;
+    background-color: var(--darkPurple);
+    
+    padding: var(--mediumPadding);
+    margin: var(--mediumPadding);
+
+    border-radius: 20px;
+}
+
+.join_list {
+    counter-reset: list-number;
+    list-style-type: decimal;
+    text-align: left;
+}
+
+.join_list li, .join_Instructionlist li {
+    margin-top: var(--mediumPadding);
+}
+
+.join_discordLogo {
+    display: flex;
+    justify-content: center;
+    padding: var(--smallPadding) 0 0 0;
+}
