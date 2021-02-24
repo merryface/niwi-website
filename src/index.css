@@ -22,10 +22,14 @@
 @import "./styling/categories.css";
 @import "./styling/media.css";
 
+/* Join Us */
+@import "./styling/join.css";
+
 
 body {
     background-image: url("./assets/backgroundImage.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    position:absolute;
 }

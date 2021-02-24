@@ -1,6 +1,6 @@
 footer {
     position: relative;
-
+    bottom: 0;
     background-color: var(--darkPurple);
 }
 

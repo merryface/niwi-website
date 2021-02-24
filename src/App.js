@@ -1,5 +1,5 @@
 import { Header, Footer } from './components/common';
-import Photos from './components/pages/Photos';
+import JoinUs from './components/pages/JoinUs';
 
 
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Photos />
+      <JoinUs />
       <Footer />
     </div>
   );
