@@ -33,14 +33,18 @@ const initial = {
         description: "This is where Hex Squadron's blurb will go",
         playerRoster: [
             " \"Scatch\" || Hex Leader",
-            "\"Slacks\" || Hex 2",
-            "\"Professor\" Autumn || Hex 3",
-            "\"Red\" || Hex 4",
-            "\"Wazimbo\" || Hex 5",
-            "\"Clutch\" || Hex 6",
-            "Null || Hex 7",
-            "\"Checkers\" || Hex 10",
-            "\"Swiper\" || Hex 11",
+            "\"Professor\" Autumn || Hex 2",
+            "\"Slacks\" || Hex 3",
+            "\"Red\" Ciel R || Hex 4",
+            "\"Clutch\" || Hex 5",
+            "Null || Hex 6",
+            "\"Checkers\" || Hex 7",
+            "\"Swiper\" || Hex 8",
+            "Linda \"Dodger\" || Hex 9",
+            "\"Lancer\" || Hex 10",
+            "Slayer || Hex 11",
+            "saberpowers || Hex 12",
+            "JC || Hex 13",
         ]
     },
 
@@ -54,18 +58,37 @@ const initial = {
             "BasAsBob || Crone 4",
             "Dunes || Crone 5",
             "Sandro \"Mad Eye\" || Crone 6",
-            "SeLRa || Crone 7",
+            "\"Meme Machine\" SeLRa || Crone 7",
             "Rizgar || Crone 8",
             "\"Hoon\" || Crone 9",
+            "Curro5150 || Crone 10",
         ]
     },
 
     broomstickInfo: {
         name: "Broomstick Squadron",
-        description: "This is where Broomstick Squadron's blurb will go",
+        description: "Embedded among other squadrons currently stationed on the MC-75 Star Cruiser Percipience sits Broomstick Squadron - elite mercenary fighter pilots hailing from all corners of the galaxy. While sympathetic to the cause of the struggling New Republic, Broomstick Squadron’s pilots fight to survive more than anything else - and for now escorting diplomatic corvettes and splashing TIEs brings in the credits to keep the holoprojectors glowing and the cantina drinks flowing.",
         playerRoster: [
             "Lokki || Broomstick Leader",
+            "\"Slug\" Bodhi || Broomstick 3",
             "Dalton || Broomstick 4",
+            "VigyoJames || Broomstick 5",
+            "Wolflock || Broomstick 6",
+            "Swift Crescendo || Broomstick 7",
+            "Xeperu || Broomstick 8",
+            "\"Robo\" || Broomstick 9",
+            "\"Vex\" Archer || Broomstick 10",
+            "Raven || Broomstick 11",
+            "\"Binks\" || Broomstick 12",
+            "Poof Donut || Broomstick 14",
+            "JediNinja || Broomstick 15",
+            "Zmoney261 || Broomstick 16",
+            "SteelVyper || Broomstick 17",
+            "BigSpoon || Broomstick 18",
+            "R1H4 \"Glennn\" || Broomstick 19",
+            "WobbleGomber || Broomstick 20",
+            "Wazimbo || Broomstick 21",
+            "Amandamygdala || Broomstick 22",
         ]
     },
 
@@ -76,6 +99,10 @@ const initial = {
         playerRoster: [
             "\"Sparrow\" || Wayward 2",
             "Martian || Wayward 3",
+            "Hera || Wayward 4",
+            "R3M1X_R3XY|| Wayward 5",
+            "\"Solar\" Ivy || Wayward 6",
+            "\"Hero\" || Wayward 7",
         ]
     },
 
