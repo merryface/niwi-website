@@ -34,7 +34,9 @@ let Videos = () => {
             <h2 className="media_titles">Night Witches Videos</h2>
             <Categories />
             <div className="media_container">
-                <VideoPlayer />
+                <div className="media_video">
+                    <VideoPlayer />
+                </div>
                 <div className="media_buttons">
                     <Button label="Next" handleClick={ youtube ? goToNext : nextStreamer } />
                     <Button label="Previous" handleClick={ youtube ? goToPrev : prevStreamer } />

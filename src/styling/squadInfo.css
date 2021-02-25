@@ -22,6 +22,7 @@
     color: var(--cream);
     text-align: center;
     padding: var(--smallPadding);
+    line-height: 2;
 }
 
 .roster_players {

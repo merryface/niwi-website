@@ -1,7 +1,9 @@
 footer {
-    position: relative;
+    position: absolute;
     bottom: 0;
     background-color: var(--darkPurple);
+    height: 3rem;
+    width: 100%;
 }
 
 .footer_copyright {
@@ -9,4 +11,5 @@ footer {
 
     text-align: center;
     padding: var(--smallPadding) var(--mediumPadding);
+
 }
