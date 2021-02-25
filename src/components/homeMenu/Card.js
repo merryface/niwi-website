@@ -11,11 +11,14 @@ let Card = ({ image, alt, text, type }) => {
     };
 
     return (
-        <div className="card">
+        <div  className="menu_card">
+
             <img onClick={ navigate } src={ image } className="card_image" alt={ alt } />
+
             <div className="card_content">
                 <h3 onClick={ navigate } className="card_label">{ text }</h3>
             </div>
+
         </div>
     )
 }
