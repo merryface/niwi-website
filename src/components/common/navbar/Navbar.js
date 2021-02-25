@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import niwiLogo from "../../../assets/niwiLogo.webp"
 
 let Navbar = () => {
+
     return(
         <>
         <nav className="nav_links">
@@ -12,6 +13,7 @@ let Navbar = () => {
             <Link to="/photos"  className="nav_link">Photos</Link> 
             <Link to="/join"  className="nav_link">Join us!</Link> 
         </nav>
+
         <img className="header_menuIcon" src={ niwiLogo } />
         </>
     )
