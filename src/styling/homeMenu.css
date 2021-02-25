@@ -69,7 +69,15 @@
 
 /* REACTIVENESS */
 @media screen and (max-width: 670px) {
+    .menu_container {
+        width: 70%;
+    }
+
     .card_content {
-        height: 40%;
+        opacity: 1;
+    }
+
+    .menu_card .card_content .card_label {
+        font-size: var(--normal);
     }
 }
