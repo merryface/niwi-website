@@ -22,6 +22,9 @@ import prevStreamer from './reducerLogic/videoDisplay/prevStreamer';
 import prevImage from './reducerLogic/photoDisplay/prevImage';
 import nextImage from './reducerLogic/photoDisplay/nextImage';
 
+// MENU BURGER
+import menuReducer from './reducerLogic/menuReducer';
+
 let reducer = (state, action) => {
     switch (action.type) {
 
@@ -46,6 +49,9 @@ let reducer = (state, action) => {
         // Images
         case "IMG_NEXT": return nextImage(state);
         case "IMG_PREV": return prevImage(state);
+
+        //Menu burger
+        case "MENU_DISPLAYED": return menuReducer(state);
         
         default: return state;
     }

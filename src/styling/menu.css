@@ -1,0 +1,17 @@
+.menu_links {
+    height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: var(--mediumPadding);
+
+    background-color: var(--darkPurple);
+}
+
+.menu_link {
+    text-decoration: none;
+    color: var(--gold);
+}
