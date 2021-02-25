@@ -2,7 +2,15 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import niwiLogo from "../../../assets/niwiLogo.webp"
 
+import { useDispatch } from 'react-redux';
+
 let Navbar = () => {
+    const dispatch = useDispatch();
+
+    // Burger toggle
+    let menuToggle = () => dispatch({
+        type: "MENU_DISPLAYED"
+    });
 
     return(
         <>
@@ -14,7 +22,7 @@ let Navbar = () => {
             <Link to="/join"  className="nav_link">Join us!</Link> 
         </nav>
 
-        <img className="header_menuIcon" src={ niwiLogo } />
+        <img onClick={ menuToggle } className="header_menuIcon" src={ niwiLogo } />
         </>
     )
 }

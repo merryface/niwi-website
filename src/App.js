@@ -1,13 +1,15 @@
+// required modules
 import { Header, Footer } from './components/common';
 import { BrowserRouter as Router, Route, } from "react-router-dom";
-import Menu from './components/Menu';
 
+import Menu from './components/Menu'; // burger menu
+
+// pages
 import Home from './components/pages/Home';
 import SeeOurSquadrons from './components/pages/SeeOurSquadrons';
 import Videos from './components/pages/Videos';
 import JoinUs from './components/pages/JoinUs';
 import Photos from './components/pages/Photos';
-
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
       <Router>
         <Header />
         <Menu />
+
         <Route exact path="/">
           <Home />
         </Route>
@@ -37,7 +40,6 @@ function App() {
 
         <Footer />
       </Router>
-
     </div>
   );
 }
