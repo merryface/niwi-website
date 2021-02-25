@@ -2,7 +2,7 @@
 const initial = {
     page: "home",
     squadInfoDisplayed: 1,
-    menuDisplayed: false,
+    menuDisplayed: true,
 
     currentVideo: 0,
     youtube: true,

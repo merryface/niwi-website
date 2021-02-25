@@ -25,6 +25,9 @@
 /* Join Us */
 @import "./styling/join.css";
 
+/* Menu burger */
+@import "./styling/menu.css";
+
 
 body {
     background-image: url("./assets/backgroundImage.jpg");
