@@ -32,3 +32,12 @@ header {
     text-decoration: none;
     color: var(--gold);
 }
+
+
+/* REACTIVENESS */
+
+@media screen and (max-width: 670px) {
+    .nav_links {
+        display: none;
+    }
+}
