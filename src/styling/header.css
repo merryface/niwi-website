@@ -33,11 +33,19 @@ header {
     color: var(--gold);
 }
 
+.header_menuIcon {
+    height: var(--big);
+    display: none;
+}
+
 
 /* REACTIVENESS */
-
 @media screen and (max-width: 670px) {
     .nav_links {
         display: none;
+    }
+
+    .header_menuIcon {
+        display: flex;
     }
 }
