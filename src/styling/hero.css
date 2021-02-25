@@ -80,3 +80,20 @@
     width: 100%;
     height: 100vh;
 }
+
+
+/* REACTIVENESS */
+@media screen and (max-width: 670px) {
+    .videoContainer__video {
+        display: none;
+    }
+
+    .hero_intro {
+        width: 90%;
+    }
+
+    .hero_subtitle {
+        text-align: center;
+        font-size: var(--big);
+    }
+}
