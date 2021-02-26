@@ -1,6 +1,6 @@
 import React from 'react';
 import downArrow from "../assets/downArrow.svg"
-import niwiLogo from "../assets/niwiLogo.webp"
+import niwiLogo from "../assets/niwiLogo.png"
 
 
 let Hero = () => {

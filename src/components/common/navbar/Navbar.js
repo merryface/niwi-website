@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import niwiLogo from "../../../assets/niwiLogo.webp"
+import niwiLogo from "../../../assets/niwiLogo.png"
 
 import { useDispatch } from 'react-redux';
 
