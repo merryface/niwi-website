@@ -68,3 +68,16 @@ body {
     }
 }}
 
+
+/* firefox reactiveness */
+@-moz-document url-prefix() { 
+    .App { 
+        padding-bottom: 27.5rem;
+    }
+
+    @media screen and (max-width: 770px) {
+        .App {
+            padding-bottom: 32rem;
+        }
+    }
+}
