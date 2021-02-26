@@ -38,8 +38,8 @@ let Videos = () => {
                     <VideoPlayer />
                 </div>
                 <div className="media_buttons">
-                    <Button className="media_button" label="Next" handleClick={ youtube ? goToNext : nextStreamer } />
-                    <Button className="media_button" label="Previous" handleClick={ youtube ? goToPrev : prevStreamer } />
+                    <Button label="Next" handleClick={ youtube ? goToNext : nextStreamer } />
+                    <Button label="Previous" handleClick={ youtube ? goToPrev : prevStreamer } />
                 </div>
             </div>
         </>

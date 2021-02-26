@@ -74,7 +74,8 @@
     }
 
     .media_button {
-        width: 5rem;
-        padding: auto 0;
+        min-width: 5rem;
+        font-size: 0.7rem;
+        padding: var(--smallPadding) var(--smallPadding);
     }
 }
