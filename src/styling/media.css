@@ -54,3 +54,28 @@
     margin: var(--mediumPadding) 0 var(--smallPadding) 0;
     text-align: center;
 }
+
+/* REACTIVENESS */
+@media screen and (max-width: 1000px) {
+    .media_container {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .media_container {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .media_container {
+        width: 70%;
+    }
+
+    .media_button {
+        min-width: 5rem;
+        font-size: 0.7rem;
+        padding: var(--smallPadding) var(--smallPadding);
+    }
+}
