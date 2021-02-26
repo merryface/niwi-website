@@ -41,7 +41,6 @@ const initial = {
             "Null || Hex 6",
             "\"Checkers\" || Hex 7",
             "\"Swiper\" || Hex 8",
-            "Linda \"Dodger\" || Hex 9",
             "\"Lancer\" || Hex 10",
             "Slayer || Hex 11",
             "saberpowers || Hex 12",
