@@ -30,3 +30,32 @@
 .categories_button:hover {
     cursor: pointer;
 }
+
+/* REACTIVENESS */
+@media screen and (max-width: 1000px) {
+    .categories_title {
+        font-size: var(--big);
+    }
+
+    .categories_button {
+        width: 10rem;
+    }
+
+    .categories_container {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .categories_title {
+        font-size: 1.3rem;
+    }
+
+    .categories_button {
+        width: 6rem;
+    }
+
+    .categories_container {
+        width: 60%;
+    }
+}
