@@ -38,3 +38,11 @@
     justify-content: center;
     padding: var(--smallPadding) 0 0 0;
 }
+
+/* REACTIVENESS */
+@media screen and (max-width: 720px) {
+    .join_container {
+        width: 90%;
+        min-width: 300px;
+    }
+}
