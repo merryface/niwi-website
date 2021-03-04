@@ -24,9 +24,28 @@ const initial = {
 
     currentPhoto: 0,
     photos: [
-        ["https://hdwallpapers.move.pk/wp-content/uploads/2015/05/star-wars-attack.jpg","A Fett being Fett"],
-        ["https://www.themeparkprofessor.com/wp-content/uploads/2020/05/X-Wing-Fighter_47c7c342.jpeg","X-wing"],
-        ["http://3.bp.blogspot.com/-FNemdmtpQr4/UVOwFhBSfCI/AAAAAAAAW_c/blExlqdYAik/s1600/Tie_interceptor.jpg","Tie Interceptor"],
+        ["https://live.staticflickr.com/65535/50996618868_3a91c663b9_c.jpg", "ISD on Yavin"],
+        ["https://live.staticflickr.com/65535/50997312501_8da61fb8e1_c.jpg","X-wing fighting Tie Defender"],
+        ["https://live.staticflickr.com/65535/50996617213_410a9637c2_c.jpg", "U-Wing",],
+        ["https://live.staticflickr.com/65535/50996616483_f8b5469b4b_c.jpg", "Exploding Ship"],
+        ["https://live.staticflickr.com/65535/50997311011_3193728efa_c.jpg", "ThumbnailNiWivFiraxaCinematic"],
+        ["https://live.staticflickr.com/65535/50997423687_810907c9a5_c.jpg", "Wolf in defender"],
+        ["https://live.staticflickr.com/65535/50997423702_3d6c04c860_c.jpg", "Wolf in defender 2"],
+        ["https://live.staticflickr.com/65535/50997304996_ec50600d7a_c.jpg", "unnamed uwing 1"],
+        ["https://live.staticflickr.com/65535/50997305031_d42b244368_c.jpg", "TiesFormationOld"],
+        ["https://live.staticflickr.com/65535/50997305061_e25716dabd_c.jpg", "tie bomber"],
+        ["https://live.staticflickr.com/65535/50997423792_4368e54826_c.jpg", "tiebomber 3"],
+        ["https://live.staticflickr.com/65535/50997305101_cd871066fb_c.jpg", "tiebomber 2"],
+        ["https://live.staticflickr.com/65535/50996610513_cc325c50e6_c.jpg", "tiebomber 1"],
+        ["https://live.staticflickr.com/65535/50996610538_58ffe83dc0_c.jpg", "Tie Bomber Arc"],
+        ["https://live.staticflickr.com/65535/50996610558_594e852a9d_c.jpg", "Thumbnail TFA Nova Cinematic"],
+        ["https://live.staticflickr.com/65535/50996571988_df138b17f0_c.jpg", "Slipped the Surly Bonds of Earth"],
+        ["https://live.staticflickr.com/65535/50997392677_4214e559b8_c.jpg", "Glow Up"],
+        ["https://live.staticflickr.com/65535/50996593248_1b06142023_c.jpg", "Hotshot 1"],
+        ["https://live.staticflickr.com/65535/50997423987_df239fbe7c_c.jpg", "bayes"],
+        ["https://live.staticflickr.com/65535/50996610618_a8f1778c16_c.jpg", "B-Wing Rockets 1"],
+        ["https://live.staticflickr.com/65535/50997423922_21ba900f02_c.jpg", "Combat Maneuvers"],
+
     ],
 
     hexInfo: {
