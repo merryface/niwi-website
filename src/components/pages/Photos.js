@@ -29,6 +29,9 @@ let Photos = () => {
                     <Button label="Next" handleClick={ imgNext } />
                 </div>
             </div>
+            <div className="media_flickr">
+            <a href="https://www.flickr.com/photos/192328226@N02/with/50996618868/" target="_blank" rel="noreferrer"><Button label="See More" handleClick={null} /></a>
+            </div>
         </>
     )
 }

@@ -55,6 +55,13 @@
     text-align: center;
 }
 
+.media_flickr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
 /* REACTIVENESS */
 @media screen and (max-width: 1000px) {
     .media_container {
