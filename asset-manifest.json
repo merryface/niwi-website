@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/niwi-website/static/css/main.7e038d48.chunk.css",
-    "main.js": "/niwi-website/static/js/main.7e22c370.chunk.js",
-    "main.js.map": "/niwi-website/static/js/main.7e22c370.chunk.js.map",
+    "main.js": "/niwi-website/static/js/main.b908d031.chunk.js",
+    "main.js.map": "/niwi-website/static/js/main.b908d031.chunk.js.map",
     "runtime-main.js": "/niwi-website/static/js/runtime-main.15a140b3.js",
     "runtime-main.js.map": "/niwi-website/static/js/runtime-main.15a140b3.js.map",
     "static/js/2.661cac4f.chunk.js": "/niwi-website/static/js/2.661cac4f.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.15a140b3.js",
     "static/js/2.661cac4f.chunk.js",
     "static/css/main.7e038d48.chunk.css",
-    "static/js/main.7e22c370.chunk.js"
+    "static/js/main.b908d031.chunk.js"
   ]
 }
