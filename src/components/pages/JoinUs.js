@@ -22,7 +22,7 @@ let JoinUs = () => (
         <article className="join_section">
             <h3>How to Join NiWi</h3>
             <ol className="join_Instructionlist">
-                <li>1) Join ou discord server:</li>
+                <li>1) Join our discord server:</li>
                 <a className="join_discordLogo" href="https://discord.gg/Xxvmswjx"><img src={discord_icon} alt="discord logo" /></a>
                 <li>2) Message Scratch, Slacks, or Boxer</li>
                 <li>3) Have a chat with us. We want to get to know you!</li>
