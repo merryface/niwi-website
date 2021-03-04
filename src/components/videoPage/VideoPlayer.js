@@ -16,7 +16,7 @@ let VideoPlayer = () => {
                 youtube ? 
                 <iframe class="media_display" title="videoPlayer" src={"https://www.youtube.com/embed/" + youtubeVideos[currentVideo]} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" />
                 :
-                <iframe class="media_display" title="videoPlayer2" src={"https://player.twitch.tv/?channel=" + twitchStreamers[currentStreamer] + "&parent=localhost"} frameborder="0" allowfullscreen="true" />
+                <iframe class="media_display" title="videoPlayer2" src={"https://player.twitch.tv/?channel=" + twitchStreamers[currentStreamer] + "&parent=https://merryface.github.io/"} frameborder="0" allowfullscreen="true" />
             }
         </>
     )
