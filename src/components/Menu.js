@@ -14,10 +14,9 @@ let Menu = () => {
     // Add menu state
     const menuDisplayed = useSelector(state => state.menuDisplayed);
 
-       {/* nav menu if menuDisplayed is true */}
+    /* nav menu if menuDisplayed is true */
     if (menuDisplayed) {
         return (
-            <>
             <nav className="menu_links">
                     <Link to="/" className="menu_link" onClick={ menuToggle }>Home</Link> 
                     <Link to="/squadrons" className="menu_link" onClick={ menuToggle }>Our Squadrons</Link> 
@@ -25,7 +24,6 @@ let Menu = () => {
                     <Link to="/photos"  className="menu_link" onClick={ menuToggle }>Photos</Link> 
                     <Link to="/join"  className="menu_link" onClick={ menuToggle }>Join us!</Link> 
             </nav>
-        </>
         )
     } else {
         return (null)
