@@ -18,7 +18,7 @@ function App() {
         <Header />
         <Menu />
 
-        <Route exact path="/">
+        <Route exact path="/niwi-website/">
           <Home />
         </Route>
 
