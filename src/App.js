@@ -1,6 +1,6 @@
 // required modules
 import { Header, Footer } from './components/common';
-import { BrowserRouter as Router, Route, } from "react-router-dom";
+import { HashRouter as Router, Route, } from "react-router-dom";
 
 import Menu from './components/Menu'; // burger menu
 
@@ -18,7 +18,11 @@ function App() {
         <Header />
         <Menu />
 
-        <Route exact path="/niwi-website/">
+        <Route exact path="/niwi-website">
+          <Home />
+        </Route>
+
+        <Route exact path="/">
           <Home />
         </Route>
 
