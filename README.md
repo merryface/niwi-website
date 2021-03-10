@@ -1,3 +1,15 @@
+# [Night witches](https://secretasteroidbase.com)
+![GitHub repo size](https://img.shields.io/github/repo-size/merryface/niwi-website?logo=GitHub&style=for-the-badge) <br>
+Night Witches is a website I created for the LGBTQ+ welcoming competitive e-sports team for the game ![Star Wars: Squadrons](https://www.ea.com/games/starwars/squadrons). The website has five pages:
+
+- Home
+- Squadrons
+- Videos
+- Photos
+- Join us
+
+![Website Demo](./src/assets/rmGif.gif) <br>
+
 # Getting Started with Create React Application
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
