@@ -46,19 +46,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-end;
     position: relative;
 
-    /* padding-top: var(--largePadding); */
+    margin-bottom: 5rem;
+    height: 100%;
+
 }
 
 .hero_learnMore {
     padding-top: var(--mediumPadding);
-    position: relative;
 }
 
 .hero_downArrow {
     padding-top: var(--smallPadding);
-    padding-bottom: var(--largePadding);
 }
 
 

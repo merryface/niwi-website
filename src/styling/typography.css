@@ -39,8 +39,11 @@ h1:hover, h2:hover, h3:hover, p:hover, a:hover, li:hover, button:hover {
     font-family: 'Aurebesh', serif;
 }
 
+
+
 h1, p, a, li, button {
     font-size: var(--normal);
+
 }
 
 h2 {

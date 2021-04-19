@@ -11,18 +11,22 @@
     border-radius: 10px;
 
     margin: var(--mediumPadding) auto;
+
+    box-sizing: border-box;
 }
 
 .description_info,  .roster_title {
     color: var(--cream);
     text-align: center;
     padding: var(--smallPadding);
+
 }
 
 .description_body {
     color: var(--cream);
     text-align: center;
     padding: var(--smallPadding);
+    padding-bottom: 5rem;
     line-height: 2;
 }
 
