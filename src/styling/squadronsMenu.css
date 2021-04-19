@@ -18,12 +18,21 @@
     text-align: center;
 
     padding: 0 var(--mediumPadding);
+
 }
 
 .icon_label {
     color: var(--gold);
     text-align: center;
-    margin: var(--smallPadding) 0;
+    padding: var(--smallPadding) 0;
+    justify-content: center;
+
+    transition-property: font-size;
+    transition-duration: 0.3s;
+}
+
+.icon_label:hover {
+    font-size: 0.6rem;
 }
 
 /* REACTIVENESS */
