@@ -26,6 +26,8 @@ header {
 .nav_link:hover, .header_Title :hover {
     cursor: pointer;
     color: var(--cream);
+    font-size: 65%;
+
 }
 
 .header_Title {
