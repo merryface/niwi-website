@@ -28,6 +28,14 @@
     padding: var(--smallPadding);
     padding-bottom: 5rem;
     line-height: 2;
+
+    transition-property: font-size;
+    transition-duration: 1s;
+    /* transition-delay: 0s; */
+}
+
+.description_body:hover {
+    font-size: 0.76rem;
 }
 
 .roster_players {
@@ -36,6 +44,7 @@
     padding-top: var(--smallPadding);
     line-height: 2;
     margin-bottom: var(--hugePadding);
+
 }
 
 /* REACTIVENESS */
