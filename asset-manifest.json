@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.ed88538b.chunk.css",
-    "main.js": "/static/js/main.fcb0cfc2.chunk.js",
-    "main.js.map": "/static/js/main.fcb0cfc2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.11bd44f1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.11bd44f1.js.map",
-    "static/js/2.fb435430.chunk.js": "/static/js/2.fb435430.chunk.js",
-    "static/js/2.fb435430.chunk.js.map": "/static/js/2.fb435430.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.ed88538b.chunk.css.map": "/static/css/main.ed88538b.chunk.css.map",
-    "static/js/2.fb435430.chunk.js.LICENSE.txt": "/static/js/2.fb435430.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/backgroundImage.550a5b0e.jpg",
-    "static/media/downArrow.ce1137b6.svg": "/static/media/downArrow.ce1137b6.svg",
-    "static/media/niwiLogo.48978aa8.png": "/static/media/niwiLogo.48978aa8.png",
-    "static/media/photosImage.33ffdb9b.jpg": "/static/media/photosImage.33ffdb9b.jpg",
-    "static/media/squadronsImage.eb542435.jpg": "/static/media/squadronsImage.eb542435.jpg",
-    "static/media/videosImage.51f52f99.jpg": "/static/media/videosImage.51f52f99.jpg"
+    "main.css": "/niwi-website/static/css/main.6f228464.chunk.css",
+    "main.js": "/niwi-website/static/js/main.ae55de98.chunk.js",
+    "main.js.map": "/niwi-website/static/js/main.ae55de98.chunk.js.map",
+    "runtime-main.js": "/niwi-website/static/js/runtime-main.15a140b3.js",
+    "runtime-main.js.map": "/niwi-website/static/js/runtime-main.15a140b3.js.map",
+    "static/js/2.fb435430.chunk.js": "/niwi-website/static/js/2.fb435430.chunk.js",
+    "static/js/2.fb435430.chunk.js.map": "/niwi-website/static/js/2.fb435430.chunk.js.map",
+    "index.html": "/niwi-website/index.html",
+    "static/css/main.6f228464.chunk.css.map": "/niwi-website/static/css/main.6f228464.chunk.css.map",
+    "static/js/2.fb435430.chunk.js.LICENSE.txt": "/niwi-website/static/js/2.fb435430.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/niwi-website/static/media/backgroundImage.550a5b0e.jpg",
+    "static/media/downArrow.ce1137b6.svg": "/niwi-website/static/media/downArrow.ce1137b6.svg",
+    "static/media/niwiLogo.48978aa8.png": "/niwi-website/static/media/niwiLogo.48978aa8.png",
+    "static/media/photosImage.33ffdb9b.jpg": "/niwi-website/static/media/photosImage.33ffdb9b.jpg",
+    "static/media/squadronsImage.eb542435.jpg": "/niwi-website/static/media/squadronsImage.eb542435.jpg",
+    "static/media/videosImage.51f52f99.jpg": "/niwi-website/static/media/videosImage.51f52f99.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.11bd44f1.js",
+    "static/js/runtime-main.15a140b3.js",
     "static/js/2.fb435430.chunk.js",
-    "static/css/main.ed88538b.chunk.css",
-    "static/js/main.fcb0cfc2.chunk.js"
+    "static/css/main.6f228464.chunk.css",
+    "static/js/main.ae55de98.chunk.js"
   ]
 }
