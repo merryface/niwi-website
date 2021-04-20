@@ -22,7 +22,7 @@ let Navbar = () => {
             <Link to="/join"  className="nav_link">Join us!</Link> 
         </nav>
 
-        <img onClick={ menuToggle } className="header_menuIcon" src={ niwiLogo } />
+        <img onClick={ menuToggle } className="header_menuIcon" src={ niwiLogo } alt="night witches logo" />
         </>
     )
 }
