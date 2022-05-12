@@ -112,7 +112,6 @@ const initial = {
             ]
         },
 
-
         waywardInfo: {
             name: "Wayward Squadron",
             description: "With the Night Witches' fame growing, it did not take long until their stories spread into the dreams of young foolhardy pilots of all backgrounds. Wishing to partake in the morally ambiguous glory, they sought them out with the hopes of one day joining their ranks. After undertaking the perilous trip to the hidden Crone outpost, the leaders were impressed by their dedication and established Wayward squadron. Wayward was assigned an old Raider, tasked with defending Crone's outpost and being on call whenever there is need for more firepower.",
@@ -125,7 +124,6 @@ const initial = {
                 "\"Hero\" || Wayward 7",
             ]
         },
-
     },
 };
 

@@ -3,8 +3,14 @@ import { useSelector } from 'react-redux'
 
 import PlayerRoster from './PlayerRoster';
 import SquadronDescription from './squadDescription';
+import axios from '../../data/axios/axios-config';
 
 let SquadInfo = () => {
+    // Fetch Squadrons from backend using axios
+    axios.get('/squadrons').then(res => {
+        console.log(res.data);
+    });
+
     // Players
     const hexPlayers = useSelector(state => state.squadrons.hexInfo);
     const cronePlayers = useSelector(state => state.squadrons.croneInfo);
