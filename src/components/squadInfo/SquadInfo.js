@@ -6,10 +6,10 @@ import SquadronDescription from './squadDescription';
 
 let SquadInfo = () => {
     // Players
-    const hexPlayers = useSelector(state => state.hexInfo);
-    const cronePlayers = useSelector(state => state.croneInfo);
-    const broomstickPlayers = useSelector(state => state.broomstickInfo);
-    const waywardPlayers = useSelector(state => state.waywardInfo);
+    const hexPlayers = useSelector(state => state.squadrons.hexInfo);
+    const cronePlayers = useSelector(state => state.squadrons.croneInfo);
+    const broomstickPlayers = useSelector(state => state.squadrons.broomstickInfo);
+    const waywardPlayers = useSelector(state => state.squadrons.waywardInfo);
 
     // display state
     const squadInfoDisplayed = useSelector(state => state.squadInfoDisplayed);
