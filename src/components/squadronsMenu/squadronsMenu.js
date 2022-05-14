@@ -7,6 +7,7 @@ import hexLogo from '../../assets/hexLogo.png';
 import croneLogo from '../../assets/croneLogo.png';
 import broomstickLogo from '../../assets/broomstickLogo.png';
 import waywardLogo from '../../assets/waywardLogo.png';
+// import niwiLogo from '../../assets/niwiLogo.png';
 
 
 let SquadronsMenu = () => {

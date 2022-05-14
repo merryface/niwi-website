@@ -41,7 +41,7 @@ body {
 }
 
 .App {
-    min-height: 100%;
+    min-height: calc(100vh - 14rem);
     position: relative;
     padding-bottom: 14rem;
 }
@@ -49,6 +49,7 @@ body {
 /* REACTIVENESS */
 @media screen and (max-width: 770px) {
     .App {
+        min-height: calc(100vh - 19rem);
         padding-bottom: 19rem;
     }
 }
@@ -62,6 +63,7 @@ body {
 
     @media screen and (max-width: 770px) {
         .App {
+            min-height: calc(100vh - 32rem);
             padding-bottom: 32rem;
         }
     }

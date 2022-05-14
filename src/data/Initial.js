@@ -1,3 +1,10 @@
+import axios from './axios/axios-config';
+axios.get('/squadrons').then((res) => {
+    if (res.data) {
+    initial.squadrons = res.data
+    }
+});
+
 // Initial state
 const initial = {
     page: "home",
