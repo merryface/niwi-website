@@ -7,55 +7,35 @@ import axios from '../../data/axios/axios-config';
 
 let SquadInfo = () => {
     // Fetch Squadrons from backend using axios
-    axios.get('/squadrons').then(res => {
-        console.log(res.data);
-    });
+    const [squadrons, setSquadrons] = React.useState([]);
+    const local_squadrons = useSelector(state => state.squadrons);
+    let final_squads = []
 
-    // Players
-    const hexPlayers = useSelector(state => state.squadrons.hexInfo);
-    const cronePlayers = useSelector(state => state.squadrons.croneInfo);
-    const broomstickPlayers = useSelector(state => state.squadrons.broomstickInfo);
-    const waywardPlayers = useSelector(state => state.squadrons.waywardInfo);
+    React.useEffect(() => {
+        axios.get('/squadrons').then((res) => {
+            let squads = res.data || local_squadrons
+            setSquadrons(squads);
+    });
+    }, []);
+
+    final_squads = squadrons
 
     // display state
     const squadInfoDisplayed = useSelector(state => state.squadInfoDisplayed);
-
-    switch(squadInfoDisplayed) {
-        case 1: return (
-            <>
-                <SquadronDescription name={ hexPlayers.name } description={ hexPlayers.description } />
-                <PlayerRoster players={ hexPlayers.playerRoster } />
-            </>
+    console.log(final_squads);
+    
+    return (
+        <div className='Squadrons_container'>
+        { final_squads.map(squadron => {
+            return (
+                <div>
+                    <SquadronDescription name={ squadron.name } description={ squadron.description } />
+                    <PlayerRoster players={ squadron.playerRoster } />
+                </div>
             )
-
-        case 2: return (
-            <>
-                <SquadronDescription name={ cronePlayers.name } description={ cronePlayers.description } />
-                <PlayerRoster players={ cronePlayers.playerRoster } />
-            </>
-            )
-
-        case 3: return (
-            <>
-                <SquadronDescription name={ broomstickPlayers.name } description={ broomstickPlayers.description } />
-                <PlayerRoster players={ broomstickPlayers.playerRoster } />
-            </>
-            )
-
-        case 4: return (
-        <>
-            <SquadronDescription name={ waywardPlayers.name } description={ waywardPlayers.description } />
-            <PlayerRoster players={ waywardPlayers.playerRoster } />
-        </>
-        )
-        
-        default: return (
-            <>
-                <SquadronDescription name={ hexPlayers.name } description={ hexPlayers.description } />
-                <PlayerRoster players={ hexPlayers.playerRoster } />
-            </>
-            ) 
-    }
+        })}
+        </div>
+    )
 }
 
 export default SquadInfo;

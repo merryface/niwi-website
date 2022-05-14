@@ -48,9 +48,9 @@ const initial = {
 
     ],
 
-    squadrons: {
-        hexInfo: {
-            name: "Hex Squadron",
+    squadrons: [
+        {
+            name: "Hex Squadron!!!",
             description: "After receiving antiquated light cruisers as payment for fighting off a band of partisans off a small fleet of battle bruised Imperial ships, Hex Squadron formed the Night Witches. With the newfound firepower, Hex built the Night Witches headquarters inside a small asteroid on the outer rim, and became renown for their skills as guns for hire. NiWi grew both in size and fame quickly, but it all started with this very squadron.",
             playerRoster: [
                 " \"Scatch\" || Hex Leader",
@@ -68,7 +68,7 @@ const initial = {
             ]
         },
 
-        croneInfo: {
+        {
             name: "Crone Squadron",
             description: "The galaxy is a large place, and as the Night Witches’ services became more and more demanded, it was time to expand. Manning the outpost on the other side of the outer rim, Crone Squadron became the Night Witches’ second most famous squadron, taking on missions where Hex could not due to distance or other pressing matters. Hidden in an asteroid field, Crone repurposed a section of a defeated and abandoned Imperial Star Destroyer and made it their home.",
             playerRoster: [
@@ -85,7 +85,7 @@ const initial = {
             ]
         },
 
-        broomstickInfo: {
+        {
             name: "Broomstick Squadron",
             description: "Embedded among other squadrons currently stationed on the MC-75 Star Cruiser Percipience sits Broomstick Squadron - elite mercenary fighter pilots hailing from all corners of the galaxy. While sympathetic to the cause of the struggling New Republic, Broomstick Squadron’s pilots fight to survive more than anything else - and for now escorting diplomatic corvettes and splashing TIEs brings in the credits to keep the holoprojectors glowing and the cantina drinks flowing.",
             playerRoster: [
@@ -112,7 +112,7 @@ const initial = {
             ]
         },
 
-        waywardInfo: {
+        {
             name: "Wayward Squadron",
             description: "With the Night Witches' fame growing, it did not take long until their stories spread into the dreams of young foolhardy pilots of all backgrounds. Wishing to partake in the morally ambiguous glory, they sought them out with the hopes of one day joining their ranks. After undertaking the perilous trip to the hidden Crone outpost, the leaders were impressed by their dedication and established Wayward squadron. Wayward was assigned an old Raider, tasked with defending Crone's outpost and being on call whenever there is need for more firepower.",
             playerRoster: [
@@ -124,7 +124,7 @@ const initial = {
                 "\"Hero\" || Wayward 7",
             ]
         },
-    },
+    ],
 };
 
 export default initial;
