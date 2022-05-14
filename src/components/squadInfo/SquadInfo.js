@@ -27,12 +27,14 @@ let SquadInfo = () => {
     return (
         <div className='Squadrons_container'>
         { final_squads.map(squadron => {
-            return (
-                <div>
-                    <SquadronDescription name={ squadron.name } description={ squadron.description } />
-                    <PlayerRoster players={ squadron.playerRoster } />
-                </div>
-            )
+            if (squadInfoDisplayed == squadron.id) {
+                return (
+                    <div>
+                        <SquadronDescription name={ squadron.name } description={ squadron.description } />
+                        <PlayerRoster players={ squadron.playerRoster } />
+                    </div>
+                )
+            }
         })}
         </div>
     )
