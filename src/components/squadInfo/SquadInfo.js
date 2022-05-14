@@ -6,7 +6,7 @@ import SquadronDescription from './squadDescription';
 let SquadInfo = () => {
     const final_squads = useSelector(state => state.squadrons);
 
-    // display state
+    // display state 
     const squadInfoDisplayed = useSelector(state => state.squadInfoDisplayed);
     
     return (
